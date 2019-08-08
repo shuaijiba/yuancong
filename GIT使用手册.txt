@@ -1,0 +1,75 @@
+﻿1.注册github账号
+2.创建github 仓库
+3.安装git软件
+4.配置git账户
+  git config  --global user.name 'yourname'
+  git config  --global user.email 'yourname@aaa.com'
+  git  confit --global user.password 'password'
+
+自己的仓库
+一 、克隆仓库到本地 ，然后提交本地内容到仓库
+git clone 仓库地址
+放入文件到克隆后的文件夹
+cd 文件夹
+git add .
+git commit -m '注释'
+git push
+
+二、本地现有项目，直接推送到远程端
+git init 
+git add .
+git commit -m '注释'
+git remote add origin 地址
+git push -u origin master
+
+
+别人的仓库
+1、打开别人的库地址 点击 fork
+比如  用户名为 ‘zhansan’ 打开了https://github.com/qigegegege/1718
+      fork 了一下
+      他的仓库里面就多了一个https://github.com/zhangsan/1718
+
+2、clone 
+   git clone https://github.com/zhangsan/1718
+3、add 
+4、commit
+5、push
+6、https://github.com/zhangsan/1718点击 new pull request 提交合并请求
+
+
+作为版本库 拥有者的qigegegege
+就可以 merge 合并zhansan 提交的pull request 
+
+
+分支:
+1、先克隆主分支到本地
+   git clone 地址
+
+2、如果提示ssl 
+   git config --global http.sslVerify false  
+
+创建并切换分支
+3、git checkout -b 分支名  
+    查看分支：git branch
+　　创建分支：git branch name
+　　切换分支：git checkout name
+　　创建+切换分支：git checkout –b name
+    删除分支：git branch –d name
+
+添加文件到分支
+4、git  add .
+5、git commit -m '注释'
+6、git push origin  分支名
+
+切换到主分支
+7、git checkout master
+
+merge 合并
+8、git merge 分支名
+9、git push
+
+如果合并报错 
+10、git pull origin master
+如果提示 vim 光标闪一闪的
+11、ESC  + 2次大写字母Z 就可以退出 
+12、git push -u origin master
