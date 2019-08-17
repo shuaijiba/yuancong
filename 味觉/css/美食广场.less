@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    .container{
+        header{
+            /*头部*/
+            z-index: 999;
+            position: fixed;
+            font-size: .4rem;
+            width: 100%;
+            height: 1.333333rem;
+            background: #fff;
+            text-align: center;
+            line-height: 1.333333rem;
+            border-bottom:1px solid rgba(0,0,0,0.2);
+            // position: fixed;
+            img{
+                width: 1rem;
+                vertical-align: middle;
+                transform: translateX(-3.5rem);
+            }
+        }
+        
+        .part1{
+            /*选项1*/
+           
+            transform: translateY(1.333333rem);
+            height: 1.333333rem;
+            background: #fff;
+            font-size: .4rem;
+            ul{
+                padding: 0;
+                margin-block-start: 0;
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+                line-height: 1.333333rem;
+                li{
+                    width: 3.333333rem;
+                    text-align: center;
+                }
+                li:nth-child(2){
+                    font-size: .5rem;
+                    color: red;
+                    font-weight: bold;
+                    border-bottom:1px solid #000;
+                    // border-right:1px solid #000;
+                }
+            }
+        }
+        
+        .part3{
+            width: 9.8rem;
+            border-radius: .266667rem;
+            margin: 0 auto;
+            padding-bottom: .666667rem;
+            margin-top: .533333rem;
+            background: rgb(250,232,200);
+            transform: translateY(1.333333rem);
+            .info{
+                ul{ 
+                    padding-top: .266667rem;
+                    overflow: hidden;
+                    li:nth-child(1){
+                        float: left;
+                        margin-left: .266667rem;
+                        img{
+                            height: 1.5rem;
+                            border-radius: 50%;
+                        }
+                    }
+                    li:nth-child(2){
+                        float: left;
+                        span{
+                            margin-left: .266667rem;
+                            font-size: .4rem;
+                            font-weight: bold;
+                            display: block;
+                        }
+                        p{
+                            margin-left: .266667rem;
+                            margin-top: .266667rem;
+                            color: gray;
+                        }
+                    }
+                }
+            }
+            .cont{
+                margin-top: .266667rem;
+                p{
+                    margin-left: .266667rem;
+                    font-size: .4rem;
+                }
+                ul{
+                    width: 9rem;
+                    display: flex;
+                    margin-left: auto;
+                    margin-right: auto;
+                    justify-content: start;
+                    flex-wrap: wrap;
+                    margin-top: .266667rem;
+                    overflow: hidden;
+                    li{
+                        margin-top: .133333rem;
+                        margin-bottom: .133333rem;
+                        width: 2.8rem;
+                        height: 2.8rem;
+                        margin-left: 0.3rem;
+                       img{
+                            
+                            height: 2.8rem;
+                        } 
+                    }
+                    li:nth-child(3n+1){
+                        margin-left: 0;
+                    }
+                }  
+            }
+            .dian{
+                ul{
+                    width: 9rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    overflow: hidden;
+                    li{
+                        margin-right: .266667rem;
+                        margin-top: .266667rem;
+                        float: right;
+                        
+                        img{
+                            width: .6rem;
+                        }
+                        a{
+                            margin-left: .133333rem;
+                            
+                        }
+                    }
+                }
+            }
+            .talk{
+                ul{
+                    width: 9.5rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    overflow: hidden;
+                    li{
+                        margin-top: .266667rem;
+                        margin-left: .133333rem;
+                        float: left;
+                        img{
+                            width: 1rem;
+                            border-radius: 50%;
+                        }
+                    }
+                    li:nth-child(1){
+                        margin-top: 0;
+                    }
+                    li:nth-child(2){
+                        color: blue;
+                    }
+                    li:nth-child(4){
+                        color: blue;
+                    }
+                    li:nth-child(5){
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}

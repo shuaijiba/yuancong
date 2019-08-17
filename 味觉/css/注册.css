@@ -1,0 +1,150 @@
+.content{
+    background: rgb(250,232,200);
+    width: 10rem;
+    height: 17.786667rem;
+}
+.logo1{
+    width: 8.026667rem;
+    height: 6rem;
+    
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+.logo1 img{
+    width: 8.026667rem;
+    transform: translateY(3rem);
+}
+/* .content{
+   
+} */
+.a1{
+    
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+}
+.a1 a span{
+    font-size: .346667rem;
+    color: red;
+}
+.a1 a{
+     font-size: .35rem;
+    /* display: block; */
+    color: #000;
+    margin-left: 6rem;
+ }
+
+ .a1 a:hover,.a1 a:hover span{
+    color: #8585FE;
+}
+.a2{
+    font-size: .533333rem;
+    height: 2rem;
+    background: #FFE300;
+    color: #055;
+    text-align: center;
+    line-height: 2rem;
+} 
+.a2s {
+     
+    width: 6rem;
+    height: 1.8rem ;
+    margin: 0 auto;
+}
+
+.a2s input{
+    
+    width: 6rem;
+    height: 1rem;
+    border-radius: .3rem; 
+    text-align: center;
+    /* box-shadow: 1px 1px 1px; */
+   
+}
+.a2s input:hover{
+    box-shadow: 2px 2px 2px inset;
+    background: rgb(228, 218, 218);
+}
+.a2s input{
+    transform: translateY(.366667rem );
+}
+.a2s input::placeholder{
+    font-size: .4rem;
+    text-align: center;
+}
+.a3{
+    width:6rem;
+    
+    margin: 0 auto;
+}
+.a3 button{
+    width: 6rem;
+    height: 1.2rem;
+    font-size: .4rem;
+    margin-top: .266667rem;
+    background: #8585FE;
+    border-radius: .2rem;
+    color: #fff;
+}
+.a3 button:hover{
+    background: #808080;
+    color: #8585FE;
+}
+.a4{
+    margin-top: 0.6rem;
+    height: 1rem;
+    width: 6.5rem;
+    margin-left:auto;
+    margin-right: auto;
+    overflow: hidden;
+    font-size: .346667rem;
+    transform: translateX(.25rem);
+}
+.a4 input{
+    transform: translateY(0.16rem);
+    
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.a4 a{
+    color: #808080;
+    
+}
+.a4 a:hover{
+    color: #8585FE;
+}
+.a4 span:nth-child(1){
+    margin-top: .266667rem;
+    float: left;
+}
+.a4 span:nth-child(2){
+    float: right;
+    margin-top: .266667rem;
+}
+.a5 span{
+    color: #808080;
+    font-size: .346667rem;
+    display: block;
+    margin-top: 2rem;
+    margin-left: .666667rem ;
+    width: 3.2rem;
+}
+.a5{
+    display: flex;
+    justify-content: space-between;
+}
+.a5 ul{
+    margin-right: 1rem;
+    display: flex;
+    width: 5rem;
+    /* margin: 0 auto; */
+    justify-content: center;
+    justify-content: space-between;
+}
+.a5 ul li{
+    margin-top: 1.8rem;
+    width: 1.333333rem;
+    /* margin-top: .533333rem; */
+}
+.a5 img{
+    width: 1rem;
+}

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>味觉-懂你的胃</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img1/logoo.png">
+    <link rel="stylesheet" href="css/味觉.css">
+</head>
+<body>
+        <img class="lufia" src="img1/路飞2.png" alt=""><img class="lufib" src="img1/路飞2.png" alt="">
+        <img class="lufic" src="img1/路飞2.png" alt=""><img class="lufid" src="img1/路飞2.png" alt="">
+        <img class="lufie" src="img1/路飞2.png" alt=""><img class="lufif" src="img1/路飞2.png" alt="">
+    <header>
+        <div class="a1">
+            <div class="logo">
+                    <img src="img1/logormk.png" alt="">
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" class="sear" placeholder="请输入菜谱/食材/菜单/作者">
+                    <input type="submit" name="" id="" class="btn" value="搜索">
+                </form>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <img src="img1/QQ.png" alt="">
+                        <a href="">QQ登录</a>
+                    </li>
+                    <li>
+                        <img src="img1/weibo.png" alt="">
+                        <a href="">微博登录</a>
+                    </li>
+                    <li><a href="">注册</a></li>
+                    <li><a href="">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+    <nav>
+        <div class="nav">
+            <ul>
+                <li><a href="">首页<img class="king" src="img1/首页1.png" alt=""></a></li>
+                <li onmouseover="toshow()" onmouseleave="tohide()"><a href="">菜谱大全<img src="img1/下.png" alt=""><img class="king" src="img1/菜谱.png" alt=""></a></li>
+                <li onmouseover="toshow2()" onmouseleave="tohide2()"><a href="">美食攻略<img src="img1/下.png" alt=""><img class="king" src="img1/美食.png" alt=""></a></li>
+                <li><a href="">饮食健康<img class="king" src="img1/饮食.png" alt=""></a></li>
+                <li><a href="">家居馆<img class="king" src="img1/家居 (1).png" alt=""></a></li>
+                <li><a href="">美食达人<img class="king" src="img1/king.png" alt=""></a></li>
+                <li><a href="">菜谱视频<img class="king" src="img1/视频.png" alt=""></a></li>
+                <li><a href="">产品下载<img class="king" src="img1/下载.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div id="hide1" onmouseover="toshow()" onmouseleave="tohide()">
+                <div class="hidea">
+                    <dl>
+                        <dt><a href="">家常菜谱</a></dt>
+                        <dd><a href="">家常菜</a></dd>
+                        <dd><a href="">凉菜</a></dd>
+                        <dd><a href="">素食</a></dd>
+                        <dd><a href="">晚餐</a></dd>
+                        <dd><a href="">私家菜</a></dd>
+                        <dd><a href="">热菜</a></dd>
+                        <dd><a href="">海鲜</a></dd>
+                        <dd><a href="">孕妇</a></dd>
+                        <dd><a href="">早餐</a></dd>
+                        <dd><a href="">午餐</a></dd>
+                        <dd><a href="">甜品点心</a></dd>
+                        <dd><a href="">汤粥</a></dd>
+                        <dd><a href="">宝宝食谱-婴儿食谱</a></dd>
+                        <dd><a href="">糕点主食</a></dd>
+                        <dd><a href="">微波炉</a></dd>
+                    </dl>
+                    
+                    
+                </div>
+                <div class="hideb">
+                    <dl>
+                        <dt><a href="">中华菜系</a></dt>
+                        <dd><a href="">川菜</a></dd>
+                        <dd><a href="">粤菜</a></dd>
+                        <dd><a href="">鲁菜</a></dd>
+                        <dd><a href="">东北菜</a></dd>
+                        <dd><a href="">湘菜</a></dd>
+                        <dd><a href="">浙江菜</a></dd>
+                        <dd><a href="">湖北菜</a></dd>
+                        <dd><a href="">清真菜</a></dd>
+                    </dl>
+                    <dl class="q">
+                        <dt class="q1"><a href="">各地小吃</a></dt>
+                        <dd class="q2"><a href="">四川小吃</a></dd>
+                        <dd><a href="">广东小吃</a></dd>
+                        <dd><a href="">北京小吃</a></dd>
+                        <dd><a href="">陕西小吃</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">外国菜谱</a></dt>
+                        <dd><a href="">韩国料理</a></dd>
+                        <dd><a href="">日本料理</a></dd>
+                        <dd><a href="">法国菜</a></dd>
+                        <dd><a href="">意大利餐</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">烘焙</a></dt>
+                        <dd><a href="">蛋糕面包</a></dd>
+                        <dd><a href="">饼干配方</a></dd>
+                        <dd><a href="">甜品点心</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">厨房百科</a></dt>
+                        <dd><a href="">摆盘围边</a></dd>
+                        <dd><a href="">烹饪技巧</a></dd>
+                        <dd><a href="">生活妙招</a></dd>
+                        <dd><a href="">美食专题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">食材百科</a></dt>
+                        <dd><a href="">蔬菜</a></dd>
+                        <dd><a href="">水果</a></dd>
+                        <dd><a href="">谷类</a></dd>
+                    </dl>
+                </div>
+                <img src="img1/大闸蟹.png" alt="">
+            </div>
+            <div id="hide2" onmouseover="toshow2()" onmouseleave="tohide2()">
+                <div class="hidec">
+                    <dl>
+                        <dt><a href="">饮食健康</a></dt>
+                        <dd><a href="">饮食小常识</a></dd>
+                        <dd><a href="">美容瘦身</a></dd>
+                        <dd><a href="">食品安全</a></dd>
+                        <dd><a href="">养生妙方</a></dd>
+                        <dd><a href="">饮食禁忌</a></dd>
+                        <dd><a href="">中医保健</a></dd>
+                        <dd><a href="">母婴健康饮食</a></dd>
+                        <dd><a href="">饮食新闻</a></dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt class="qs"><a href="">功能性调节</a></dt>
+                        <dd><a href="">清热去火</a></dd>
+                        <dd><a href="">减肥</a></dd>
+                        <dd><a href="">祛痰</a></dd>
+                        <dd><a href="">乌发</a></dd>
+                        <dd><a href="">滋阴补肾</a></dd>
+                        <dd><a href="">健脾开胃</a></dd>
+                        <dd><a href="">消化不良</a></dd>
+                        <dd><a href="">清热解毒</a></dd>
+                        <dd><a href="">壮阳补阳</a></dd>
+                        <dd><a href="">增肥</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">人群膳食</a></dt>
+                        <dd><a href="">孕妇</a></dd>
+                        <dd><a href="">老人</a></dd>
+                        <dd><a href="">产妇</a></dd>
+                        <dd><a href="">哺乳期</a></dd>
+                        <dd><a href="">青少年</a></dd>
+                        <dd><a href="">幼儿</a></dd>
+                        <dd><a href="">学龄期儿童</a></dd>
+                    </dl>
+                    <dl class="q">
+                        <dt class="q1"><a href="">疾病调理</a></dt>
+                        <dd class="q2"><a href="">糖尿病</a></dd>
+                        <dd><a href="">高血压</a></dd>
+                        <dd><a href="">痛风</a></dd>
+                        <dd><a href="">胃炎</a></dd>
+                        <dd><a href="">痔疮</a></dd>
+                        <dd><a href="">更年期</a></dd>
+                        <dd><a href="">甲状腺</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">脏腑调理</a></dt>
+                        <dd><a href="">感冒</a></dd>
+                        <dd><a href="">补肾</a></dd>
+                        <dd><a href="">阳痿早泄</a></dd>
+                        <dd><a href="">补血</a></dd>
+                        <dd><a href="">便秘</a></dd>
+                        <dd><a href="">腹泻</a></dd>
+                        <dd><a href="">活血化瘀</a></dd>
+                    </dl>
+                   
+                </div>
+                <img src="img1/2葱.png" alt="">
+            </div>
+    </nav>
+    <div class="bottom">
+        <form action="">
+            <input type="text" class="sear" placeholder="请输入菜谱/食材/菜单/作者">
+            <input type="submit" name="" id="" class="btn" value="搜索">
+        </form>
+    </div>
+    <div class="btt">
+        <a href="#top1"><img src="img1/返回顶部 (1).png" alt=""></a>
+
+    </div>
+    <div class="btt2">
+        
+        <img class="ctrl" src="img1/蔡徐坤.png" alt="">
+    </div>
+    <div class="container">
+        <h3 class="h1"><img class="lufi" src="img1/路飞2.png" alt=""><img class="lufi2" src="img1/路飞2.png" alt=""><a name="top1">今日午餐推荐：零失败开胃菜，好吃到舔盘</a> </h3>
+        <div class="lunbo1">
+                
+            <div id="one"  >
+                <img src="img1/food1.jpg">
+                <div class="word">
+                    <a href="">红豆沙冰</a>
+                    <p>清热去火，利水消肿</p>
+
+                </div>
+            </div>
+            <div id="two"  >
+                <img src="img1/food2.jpg">
+                <div class="word">
+                    <a href="">蓝莓山药糕</a>
+                    <p>富含花青素，保护视力</p>
+                </div>
+            </div>
+            <div id="three">
+                <img src="img1/food3.jpg">
+                <div class="word">
+                    <a href="">鲜榨西瓜汁</a>
+                    <p>补充多种维生素，养颜排毒</p>
+                </div>
+            </div>
+            <div id="four">
+                <img src="img1/food4.jpg">
+                <div class="word">
+                    <a href="">开胃拌青椒</a>
+                    <p>富含VC，多吃减肥</p>
+                </div>
+            </div>
+            <div id="five">
+                <img src="img1/food5.jpg">
+                <div class="word">
+                    <a href="">锅边馍馍</a>
+                    <p>富含碳水化合物，补充能量</p>
+                </div>
+            </div>
+            <div id="six">
+                <img src="img1/food6.jpg">
+                <div class="word">
+                    <a href="">香辣鸭血粉丝汤</a>
+                    <p>补充矿物质，帮助消化</p>
+                </div>
+            </div>
+            <div id="seven">
+                <img src="img1/food7.jpg">
+                <div class="word">
+                    <a href="">擀面皮</a>
+                    <p>富含维生素，增进食欲</p>
+                </div>
+            </div>
+            <div id="eight">
+                <img src="img1/food8.jpg">
+                <div class="word">
+                    <a href="">米饭千层肉饼</a>
+                    <p>富含氨基酸，增强免疫力</p>
+                </div>
+            </div>
+            <div id="nine">
+                <img src="img1/food9.jpg">
+                <div class="word">
+                    <a href="">番茄菌菇汤饺</a>
+                    <p>补充水分，助消化</p>
+                </div>
+            </div>
+                    
+        </div>
+        <h3 class="h2"><img class="lufis" src="img1/蔡徐坤.png" alt=""><img class="lufi2s" src="img1/蔡徐坤.png" alt="">八月，清热养肺，滋阴益气 <span><a href="">更多食材 ></a></span></h3>
+        <div class="part2">
+                <div class="lunbo2">
+                    <div id="one1">
+                        <img src="img1/1葡萄.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">葡萄</a>
+                            
+                        </div>
+                    </div>
+                    <div id="two1">
+                        <img src="img1/2哈密瓜.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">哈密瓜</a>
+                            
+                        </div>
+                    </div>
+                    <div id="three1">
+                        <img src="img1/3西瓜.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">西瓜</a>
+                            
+                        </div>
+                    </div>
+                    <div id="four1">
+                        <img src="img1/4香蕉.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">香蕉</a>
+                            
+                        </div>
+                    </div>
+                    <div id="five1">
+                        <img src="img1/5木瓜.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">木瓜</a>
+                            
+                        </div>
+                    </div>
+                    <div id="six1">
+                        <img src="img1/6李子.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">李子</a>
+                            
+                        </div>
+                    </div>
+                    <div id="seven1">
+                        <img src="img1/7桃子.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">桃子</a>
+                            
+                        </div>
+                    </div>
+                    <div id="eight1">
+                        <img src="img1/8榴莲.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">榴莲</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="lunbo3">
+                    <div id="one2">
+                        <img src="img1/1茄子.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">茄子</a>
+                            
+                        </div>
+                    </div>
+                    <div id="two2">
+                        <img src="img1/2苦瓜.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">苦瓜</a>
+                            
+                        </div>
+                    </div>
+                    <div id="three2">
+                        <img src="img1/3豇豆.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">豇豆</a>
+                            
+                        </div>
+                    </div>
+                    <div id="four2">
+                        <img src="img1/4冬瓜.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">冬瓜</a>
+                            
+                        </div>
+                    </div>
+                    <div id="five2">
+                        <img src="img1/5土豆.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">土豆</a>
+                            
+                        </div>
+                    </div>
+                    <div id="six2">
+                        <img src="img1/6丝瓜.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">丝瓜</a>
+                            
+                        </div>
+                    </div>
+                    <div id="seven2">
+                        <img src="img1/7油麦菜.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">油麦菜</a>
+                            
+                        </div>
+                    </div>
+                    <div id="eight2">
+                        <img src="img1/8西红柿.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">西红柿</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="lunbo4">
+                    <div id="one3">
+                    <img src="img1/1牛肉.jpg">
+                    <div class="word">
+                        <div></div>
+                        <a href="">牛肉</a>
+                        
+                    </div>
+                    </div>
+                    <div id="two3">
+                        <img src="img1/2梭子蟹.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">梭子蟹</a>
+                            
+                        </div>
+                    </div>
+                    <div id="three3">
+                        <img src="img1/3武昌鱼.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">武昌鱼</a>
+                            
+                        </div>
+                    </div>
+                    <div id="four3">
+                        <img src="img1/4小龙虾.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">小龙虾</a>
+                            
+                        </div>
+                    </div>
+                    <div id="five3">
+                        <img src="img1/5草鱼.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">草鱼</a>
+                            
+                        </div>
+                    </div>
+                    <div id="six3">
+                        <img src="img1/6鸭子.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">鸭子</a>
+                            
+                        </div>
+                    </div>
+                    <div id="seven3">
+                        <img src="img1/7鲍鱼.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">鲍鱼</a>
+                            
+                        </div>
+                    </div>
+                    <div id="eight3">
+                        <img src="img1/8鱿鱼.jpg">
+                        <div class="word">
+                            <div></div>
+                            <a href="">鱿鱼</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="part3">
+                <div class="limit">
+                        <div class="biglunbo">
+                            <div class="fl1">
+                                <h3 class="h3">
+                                        <img class="lufi" src="img1/路飞2.png" alt=""><img class="lufi2" src="img1/路飞2.png" alt="">
+                                今日最受欢迎菜谱 
+                                
+                                </h3>
+                                <span class="ablt">
+                                    <a href="">最新</a>
+                                    <a href="" class="disabled">| 最热：</a>
+                                    <a href="">一小时</a>
+                                    <a href="">今天</a>
+                                    <a href="">更多食材 ></a>
+                                </span>
+                                <div class="lb1">
+                                    <ul>
+                                        <li><a href=""><img src="img1/1丝瓜虾干炖猪肉.jpg" alt=""></a><div class="mmm"><div class="hover"><span>丝瓜虾干炖猪血</span><p class="only">12</p><p>评论</p><p>0</p><p>人气</p><span class="nude">踏月色而来~</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">煮/咸鲜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/2蜜豆酸奶华夫饼.jpg" alt=""></a><div class="mmm"><div class="hover"><span>蜜豆酸奶华夫饼</span><p class="only">23</p><p>评论</p><p>40</p><p>人气</p><span class="nude">食.色</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">14步/大概90分钟</li><li><img src="img1/火.png" alt="">烙/甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/3牛肉肠轻食沙拉.jpg" alt=""></a><div class="mmm"><div class="hover"><span>牛肉肠轻食沙拉</span><p class="only">0</p><p>评论</p><p>0</p><p>人气</p><span class="nude">迪拜中心</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">拌/黑椒味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/4果蔬磨牙棒.jpg" alt=""></a><div class="mmm"><div class="hover"><span>果蔬磨牙棒</span><p class="only">42</p><p>评论</p><p>70</p><p>人气</p><span class="nude">亚马逊</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">烤/甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/5李子果酱.jpg" alt=""></a><div class="mmm"><div class="hover"><span>李子果酱</span><p class="only">56</p><p>评论</p><p>9</p><p>人气</p><span class="nude">腾讯</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">煮/酸甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/6黄瓜拌鸡丝.jpg" alt=""></a><div class="mmm"><div class="hover"><span>黄瓜拌鸡丝</span><p class="only">123</p><p>评论</p><p>134</p><p>人气</p><span class="nude">阿里巴巴</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">拌/酸辣味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/7砂锅鸡胸骨炖白菜.jpg" alt=""></a><div class="mmm"><div class="hover"><span>砂锅鸡胸骨炖白菜</span><p class="only">0</p><p>评论</p><p>7</p><p>人气</p><span class="nude">加利福尼亚中国大使馆</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">炖/家常味</li></ul></div></div></li>
+                                        <li>
+                                            <h4>热门栏目推荐</h4>
+                                            <ul>
+                                                <li class="li"><a href="">最新菜谱</a></li>
+                                                <li class="li"><a href="">家常菜</a></li>
+                                                <li class="li"><a href="">凉菜</a></li>
+                                                <li class="li"><a href="">素食</a></li>
+                                                <li class="li"><a href="">早餐</a></li>
+                                                <li class="li"><a href="">乌发</a></li>
+                                                <li class="li"><a href="">高血压</a></li>
+                                                <li class="li"><a href="">烘焙</a></li>
+                                                <li class="li"><a href="">韩国料理</a></li>
+                                                <li class="li"><a href="">川菜</a></li>
+                                                <li class="li"><a href="">粤菜</a></li>
+                                                <li class="li"><a href="">湘菜</a></li>
+                                                <li class="li"><a href="">甜点</a></li>
+                                                <li class="qws"><a href="">进入菜谱大全>></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fl1">
+                                <h3 class="h3">
+                                        <img class="lufi" src="img1/路飞2.png" alt=""><img class="lufi2" src="img1/路飞2.png" alt="">
+                                每小时最热门菜谱 
+                                
+                                </h3>
+                                <span class="ablt">
+                                    <a href="">最新</a>
+                                    <a href="" class="disabled">| 最热：</a>
+                                    <a href="">一小时</a>
+                                    <a href="">今天</a>
+                                    <a href="">更多食材 ></a>
+                                </span>
+                                <div class="lb1">
+                                    <ul>
+                                        <li><a href=""><img src="img1/a可可酥球.jpg" alt=""></a><div class="mmm"><div class="hover"><span>可可酥球</span><p class="only">12</p><p>评论</p><p>0</p><p>人气</p><span class="nude">踏月色而来~</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">烘焙/甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/b巨好吃超满足的香葱肉松蛋糕卷.jpg" alt=""></a><div class="mmm"><div class="hover"><span>巨好吃超满足的香葱肉松蛋糕卷</span><p class="only">23</p><p>评论</p><p>40</p><p>人气</p><span class="nude">食.色</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">14步/大概90分钟</li><li><img src="img1/火.png" alt="">烘焙/葱香味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/c腊肉烧魔芋.jpg" alt=""></a><div class="mmm"><div class="hover"><span>腊肉烧魔芋</span><p class="only">0</p><p>评论</p><p>0</p><p>人气</p><span class="nude">迪拜中心</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">炒/家常味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/d鸡肉苦荞粒粒饭.jpg" alt=""></a><div class="mmm"><div class="hover"><span>鸡肉苦荞粒粒饭</span><p class="only">42</p><p>评论</p><p>70</p><p>人气</p><span class="nude">亚马逊</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">炒/咸鲜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/e咸菜干烧腊肉.jpg" alt=""></a><div class="mmm"><div class="hover"><span>咸菜干烧腊肉</span><p class="only">56</p><p>评论</p><p>9</p><p>人气</p><span class="nude">腾讯</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">煮/酸甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/f1凉拌猪口条.jpg" alt=""></a><div class="mmm"><div class="hover"><span>凉拌猪口条</span><p class="only">123</p><p>评论</p><p>134</p><p>人气</p><span class="nude">阿里巴巴</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">拌/酸辣味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/g肉粒泡豇豆.jpg" alt=""></a><div class="mmm"><div class="hover"><span>肉粒泡豇豆</span><p class="only">0</p><p>评论</p><p>7</p><p>人气</p><span class="nude">加利福尼亚中国大使馆</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">炖/家常味</li></ul></div></div></li>
+                                        <li>
+                                            <h4>热门栏目推荐</h4>
+                                            <ul>
+                                                <li class="li"><a href="">最新菜谱</a></li>
+                                                <li class="li"><a href="">家常菜</a></li>
+                                                <li class="li"><a href="">凉菜</a></li>
+                                                <li class="li"><a href="">素食</a></li>
+                                                <li class="li"><a href="">早餐</a></li>
+                                                <li class="li"><a href="">乌发</a></li>
+                                                <li class="li"><a href="">高血压</a></li>
+                                                <li class="li"><a href="">烘焙</a></li>
+                                                <li class="li"><a href="">韩国料理</a></li>
+                                                <li class="li"><a href="">川菜</a></li>
+                                                <li class="li"><a href="">粤菜</a></li>
+                                                <li class="li"><a href="">湘菜</a></li>
+                                                <li class="li"><a href="">甜点</a></li>
+                                                <li class="qws"><a href="">进入菜谱大全>></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fl1">
+                                <h3 class="h3">
+                                一周热门菜谱推荐 
+                                <img class="lufi" src="img1/路飞2.png" alt=""><img class="lufi2" src="img1/路飞2.png" alt="">
+                                </h3>
+                                <span class="ablt">
+                                    <a href="">最新</a>
+                                    <a href="" class="disabled">| 最热：</a>
+                                    <a href="">一小时</a>
+                                    <a href="">今天</a>
+                                    <a href="">更多食材 ></a>
+                                </span>
+                                <div class="lb1">
+                                    <ul>
+                                        <li><a href=""><img src="img1/a2洋葱炖牛肉.jpg" alt=""></a><div class="mmm"><div class="hover"><span>洋葱炖牛肉</span><p class="only">12</p><p>评论</p><p>0</p><p>人气</p><span class="nude">踏月色而来~</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">煮/咸鲜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/b2南瓜糊饼.jpg" alt=""></a><div class="mmm"><div class="hover"><span>南瓜糊饼</span><p class="only">23</p><p>评论</p><p>40</p><p>人气</p><span class="nude">食.色</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">14步/大概90分钟</li><li><img src="img1/火.png" alt="">烙/甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/c2蓝莓酱花面包.jpg" alt=""></a><div class="mmm"><div class="hover"><span>蓝莓酱花面包</span><p class="only">0</p><p>评论</p><p>0</p><p>人气</p><span class="nude">迪拜中心</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">拌/黑椒味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/d2肉丝包菜炒米粉.jpg" alt=""></a><div class="mmm"><div class="hover"><span>肉丝包菜炒米粉</span><p class="only">42</p><p>评论</p><p>70</p><p>人气</p><span class="nude">亚马逊</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">烤/甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/e2香辣豆腐干.jpg" alt=""></a><div class="mmm"><div class="hover"><span>香辣豆腐干</span><p class="only">56</p><p>评论</p><p>9</p><p>人气</p><span class="nude">腾讯</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">煮/酸甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/f2番茄三文鱼汤.jpg" alt=""></a><div class="mmm"><div class="hover"><span>番茄三文鱼汤</span><p class="only">123</p><p>评论</p><p>134</p><p>人气</p><span class="nude">阿里巴巴</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">拌/酸辣味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/g2香肠猪肉炒疙瘩.jpg" alt=""></a><div class="mmm"><div class="hover"><span>香肠猪肉炒疙瘩</span><p class="only">0</p><p>评论</p><p>7</p><p>人气</p><span class="nude">加利福尼亚中国大使馆</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">炖/家常味</li></ul></div></div></li>
+                                        <li>
+                                            <h4>热门栏目推荐</h4>
+                                            <ul>
+                                                <li class="li"><a href="">最新菜谱</a></li>
+                                                <li class="li"><a href="">家常菜</a></li>
+                                                <li class="li"><a href="">凉菜</a></li>
+                                                <li class="li"><a href="">素食</a></li>
+                                                <li class="li"><a href="">早餐</a></li>
+                                                <li class="li"><a href="">乌发</a></li>
+                                                <li class="li"><a href="">高血压</a></li>
+                                                <li class="li"><a href="">烘焙</a></li>
+                                                <li class="li"><a href="">韩国料理</a></li>
+                                                <li class="li"><a href="">川菜</a></li>
+                                                <li class="li"><a href="">粤菜</a></li>
+                                                <li class="li"><a href="">湘菜</a></li>
+                                                <li class="li"><a href="">甜点</a></li>
+                                                <li class="qws"><a href="">进入菜谱大全>></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fl1">
+                                <h3 class="h3">
+                                每月TOP欢迎菜谱 
+                                <img class="lufi" src="img1/路飞2.png" alt=""><img class="lufi2" src="img1/路飞2.png" alt="">
+                                </h3>
+                                <span class="ablt">
+                                    <a href="">最新</a>
+                                    <a href="" class="disabled">| 最热：</a>
+                                    <a href="">一小时</a>
+                                    <a href="">今天</a>
+                                    <a href="">更多食材 ></a>
+                                </span>
+                                <div class="lb1">
+                                    <ul>
+                                        <li><a href=""><img src="img1/a3草莓奶油杯.jpg" alt=""></a><div class="mmm"><div class="hover"><span>草莓奶油杯</span><p class="only">12</p><p>评论</p><p>0</p><p>人气</p><span class="nude">踏月色而来~</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">煮/咸鲜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/b3红烧猪肝.jpg" alt=""></a><div class="mmm"><div class="hover"><span>红烧猪肝</span><p class="only">23</p><p>评论</p><p>40</p><p>人气</p><span class="nude">食.色</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">14步/大概90分钟</li><li><img src="img1/火.png" alt="">烙/甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/c3荷兰豆炒螺肉.jpg" alt=""></a><div class="mmm"><div class="hover"><span>荷兰豆炒螺肉</span><p class="only">0</p><p>评论</p><p>0</p><p>人气</p><span class="nude">迪拜中心</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">拌/黑椒味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/d3蒜香凉拌秋葵.jpg" alt=""></a><div class="mmm"><div class="hover"><span>蒜香凉拌秋葵</span><p class="only">42</p><p>评论</p><p>70</p><p>人气</p><span class="nude">亚马逊</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">烤/甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/e3鸡蛋火腿炒饭.jpg" alt=""></a><div class="mmm"><div class="hover"><span>鸡蛋火腿炒饭</span><p class="only">56</p><p>评论</p><p>9</p><p>人气</p><span class="nude">腾讯</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">煮/酸甜味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/f3四喜蒸饺.jpg" alt=""></a><div class="mmm"><div class="hover"><span>四喜蒸饺</span><p class="only">123</p><p>评论</p><p>134</p><p>人气</p><span class="nude">阿里巴巴</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">拌/酸辣味</li></ul></div></div></li>
+                                        <li><a href=""><img src="img1/g3霸王超市杂粮米饭.jpg" alt=""></a><div class="mmm"><div class="hover"><span>霸王超市|杂粮米饭</span><p class="only">0</p><p>评论</p><p>7</p><p>人气</p><span class="nude">加利福尼亚中国大使馆</span></div><div class="many"><ul><li><img src="img1/厨师.png" alt="">15步/大概30分钟</li><li><img src="img1/火.png" alt="">炖/家常味</li></ul></div></div></li>
+                                        <li>
+                                            <h4>热门栏目推荐</h4>
+                                            <ul>
+                                                <li class="li"><a href="">最新菜谱</a></li>
+                                                <li class="li"><a href="">家常菜</a></li>
+                                                <li class="li"><a href="">凉菜</a></li>
+                                                <li class="li"><a href="">素食</a></li>
+                                                <li class="li"><a href="">早餐</a></li>
+                                                <li class="li"><a href="">乌发</a></li>
+                                                <li class="li"><a href="">高血压</a></li>
+                                                <li class="li"><a href="">烘焙</a></li>
+                                                <li class="li"><a href="">韩国料理</a></li>
+                                                <li class="li"><a href="">川菜</a></li>
+                                                <li class="li"><a href="">粤菜</a></li>
+                                                <li class="li"><a href="">湘菜</a></li>
+                                                <li class="li"><a href="">甜点</a></li>
+                                                <li class="qws"><a href="">进入菜谱大全>></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                </div>
+                
+                
+                <div class="arrowleft"><img src="img1/左.png" alt=""></div>
+                <div class="arrowright"><img src="img1/左.png" alt=""></div>
+            </div>
+            <h3 class="jk">健康新闻<img class="lufi" src="img1/路飞.png" alt=""><img class="lufi2" src="img1/龟仙人.png" alt=""><span><a href="">更多食材 ></a></span></h3>
+            <div class="part4">
+                
+                <div class="pick">
+                    <a href=""><img src="img1/1启航酒庄.jpg" alt=""></a>
+                    <ul>
+                        <li><a href="">启航未来|君顶酒庄品牌升级新品上</a> </li>
+                        <li><a href="">免疫力下降吃什么好？看看汤臣倍健</a> </li>
+                        <li><a href="">宝宝益生菌可以每天吃吗？</a></li>
+                    </ul>
+                    <div class="zhuangshi"><span><a href="">食品安全</a></span><img src="img1/三角形2.png" alt=""></div>
+                </div>
+                <div class="pick">
+                    <a href=""><img src="img1/2腊八粥.jpg" alt=""></a>
+                    <ul>
+                        <li><a href="">南方春节食物的寓意</a> </li>
+                        <li><a href="">轻食主义到底是什么呢?</a> </li>
+                        <li><a href="">腊八除了吃腊八粥还吃什么？</a></li>
+                    </ul>
+                    <div class="zhuangshi"><span><a href="">文化典故</a></span><img src="img1/三角形2.png" alt=""></div>
+                </div>
+                <div class="pick">
+                    <a href=""><img src="img1/3无主之城.jpg" alt=""></a>
+                    <ul>
+                        <li><a href="">丽江印象斑鱼府携手爱奇艺《无主之</a> </li>
+                        <li><a href="">各地优质富硒农产品竞逐“中国富硒</a> </li>
+                        <li><a href="">缺少蛋白质该吃什么？了解下蛋白粉</a></li>
+                    </ul>
+                    <div class="zhuangshi"><span><a href="">健康指南</a></span><img src="img1/三角形2.png" alt=""></div>
+                </div>
+                <div class="pick">
+                    <a href=""><img src="img1/4贝纳颂.jpg" alt=""></a>
+                    <ul>
+                        <li><a href="">2019春季奇跑迪士尼上海开赛 康师</a> </li>
+                        <li><a href="">“啡”同寻常 | 贝纳颂咖啡飘香奇</a> </li>
+                        <li><a href="">康师傅绿茶布局多元化营销 直指年</a></li>
+                    </ul>
+                    <div class="zhuangshi"><span><a href="">新鲜资讯</a></span><img src="img1/三角形2.png" alt=""></div>
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <div class="contain">
+            <div class="logobottom">
+                <ul>
+                    <li>
+                        <a href=""><img class="loo" src="img1/logormk.png" alt=""></a>
+                    </li>
+                    <li>
+                        <span>
+                            <img src="img1/微博.png" alt="">
+                            <p class="asd1"></p>
+                            <p class="asdf">关注：5000万</p>
+                        </span>
+                        <p class="pp"><a href="">点击进入<br>味觉官方微博</a></p>
+                    </li>
+                    <li>
+                        <span>
+                            <img class="a0" src="img1/QQ空间.png" alt="">
+                            <p class="asd2"></p>
+                            <p class="asdf2">关注：4444万</p>
+                        </span>
+                        <p class="pp"><a href="">点击进入<br>味觉QQ空间</a></p>
+                    </li>
+                    <li>
+                        <span>
+                            <img class="a9" src="img1/WeChat.jpg" alt="">
+                        </span>
+                        <p class="pp"><a href="">扫描二维码添加<br>味觉为微信好友</a></p>
+                    </li>
+                    <li>
+                        <span>
+                            <img class="a9" src="img1/QQ.jpg" alt="">
+                        </span>
+                        <p class="pp"><a href="">扫描二维码下载<br>味觉手机客户端</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="theend">
+                <div class="last">
+                    <dl class="lianjie">
+                        <dt>友情链接</dt>
+                            <dd><a href="">美食</a></dd>
+                            <dd><a href="">体质测试</a></dd>
+                            <dd><a href="">伊特</a></dd>
+                            <dd><a href="">9酷音乐网</a></dd>
+                            <dd><a href="">365音乐网图</a></dd>
+                            <dd><a href="">图吧</a></dd>
+                            <dd><a href="">汽车论坛</a></dd>
+                            <dd><a href="">39健康饮食</a></dd>
+                            <dd><a href="">阿联酋总部</a></dd>
+                            <dd><a href="">家具网</a></dd>
+                            <dd><a href="">搜狐美食</a></dd>
+                            <dd><a href="">美食天下</a></dd>
+                            <dd><a href="">中华美食网</a></dd>
+                            <dd><a href="">成都公交网</a></dd>
+                            <dd><a href="">红餐微杂志</a></dd>
+                            <dd><a href="">北京搜房网</a></dd>
+                            <dd><a href="">更多友情链接</a></dd>
+                    </dl>
+                </div>
+                <div class="final">
+                    <ul>
+                        <li><a href="">公司简介</a></li>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">产品下载</a></li>
+                        <li><a href="">加入我们</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">商务合作</a></li>
+                        <li><a href="">用户协议</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">网站地图</a></li>
+                        <li><a href="">友情链接</a></li>
+                    </ul>
+                    <p>京ICP备14030359号/<img src="img1/1234.png">京公网安备11010802026928 Copyright © 2003-2019 MEISHIJ CO.,LTD.</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    <!-- <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js "></script> -->
+    <script>
+            function toshow(){
+                var show =document.getElementById('hide1');
+                show.style.display = 'block';
+                
+            }
+            function tohide(){
+                var show =document.getElementById('hide1');
+                show.style.display = 'none';
+            }
+            function toshow2(){
+                var show =document.getElementById('hide2');
+                show.style.display = 'block';
+                
+            }
+            function tohide2(){
+                var show =document.getElementById('hide2');
+                show.style.display = 'none';
+            }
+        </script>
+</body>
+</html>
