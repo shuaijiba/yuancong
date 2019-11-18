@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f6f6f6;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.active {
+  background-color: #31c27c;
+  color: #fff;
+}
+body-x {
+  overflow: hidden;
+}
+i {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff2') format('woff2'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+}
+section {
+  width: 80%;
+  margin: 35px auto;
+}
+section .banner {
+  overflow: hidden;
+}
+section .banner nav {
+  height: 250px;
+  width: 80px;
+  border: 1px #ebebeb solid;
+  float: left;
+}
+section .banner nav ul {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+section .banner nav ul li {
+  height: 60px;
+}
+section .banner nav ul li a {
+  display: block;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+}
+section .banner nav ul li a:hover {
+  color: #31c27c;
+}
+section .banner nav ul li .active:hover {
+  background-color: #31c27c;
+  color: #fff;
+}
+section .banner .bd {
+  position: relative;
+  margin-left: 110px;
+  margin-right: 85px;
+}
+section .banner .bd .bdhead {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+section .banner .bd .bdhead h2 {
+  font-size: 32px;
+}
+section .banner .bd .bdhead ul {
+  display: block;
+  margin-top: 15px;
+  overflow: hidden;
+}
+section .banner .bd .bdhead ul .active {
+  background-color: #31c27c;
+}
+section .banner .bd .bdhead ul .active a {
+  color: #fff;
+}
+section .banner .bd .bdhead ul li {
+  float: left;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 20px;
+  border-radius: 35px;
+}
+section .banner .bd .bdhead ul li a {
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  padding: 0 25px;
+  letter-spacing: 5px;
+}
+section .banner .bd .bdhead ul li:hover {
+  background-color: #ededed;
+  color: #333;
+}
+section .banner .bd .bdhead ul .active:hover {
+  background-color: #31c27c;
+  color: #fff;
+}
+section .banner .bd .bdsong .songlist-title {
+  display: flex;
+  height: 50px;
+  padding: 0 150px;
+  overflow: hidden;
+  background-color: #e8ebe6;
+  justify-content: space-between;
+}
+section .banner .bd .bdsong .songlist-title li {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  color: #ada9a9;
+}
+section .banner .bd .bdsong .songlist-list {
+  height: 80px;
+  padding: 0 60px;
+}
+section .banner .bd .bdsong .songlist-list li {
+  height: 80px;
+  margin-bottom: 10px;
+}
+section .banner .bd .bdsong .songlist-list li .song-name {
+  width: 48%;
+  height: 80px;
+  display: flex;
+  float: left;
+  justify-content: space-between;
+  padding-right: 33px;
+}
+section .banner .bd .bdsong .songlist-list li .song-name i {
+  display: inline-block;
+  width: 5%;
+  line-height: 80px;
+}
+section .banner .bd .bdsong .songlist-list li .song-name span {
+  display: inline-block;
+  width: 63%;
+}
+section .banner .bd .bdsong .songlist-list li .song-name span a {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 0;
+}
+section .banner .bd .bdsong .songlist-list li .song-name span img {
+  height: 80px;
+  vertical-align: middle;
+}
+section .banner .bd .bdsong .songlist-list li .song-name span .songname {
+  font-size: 16px;
+}
+section .banner .bd .bdsong .songlist-list li .song-name .songcontrol {
+  display: inline-block;
+  height: 80px;
+  opacity: 0;
+}
+section .banner .bd .bdsong .songlist-list li .song-name .songcontrol a {
+  color: #a2a2a2;
+  display: inline-block;
+}
+section .banner .bd .bdsong .songlist-list li .song-name .songcontrol a i {
+  font-size: 22px;
+  line-height: 80px;
+}
+section .banner .bd .bdsong .songlist-list li .song-name .songcontrol a:hover {
+  color: #31c27c;
+}
+section .banner .bd .bdsong .songlist-list li .singer {
+  float: left;
+  width: 36%;
+}
+section .banner .bd .bdsong .songlist-list li .singer a {
+  line-height: 80px;
+}
+section .banner .bd .bdsong .songlist-list li .songtime {
+  float: right;
+  width: 16%;
+  line-height: 80px;
+  text-align: center;
+}
+section .banner .bd .bdsong .songlist-list li:hover .songcontrol {
+  opacity: 1;
+}
+section .banner .bd .bdsong .songlist-list a:hover {
+  color: #31c27c;
+}

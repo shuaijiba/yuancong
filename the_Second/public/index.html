@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+
+<body>
+    <header>
+        <a name="fanhui"></a>
+        <div id="nav_box">
+            <div id="container">
+                <ul id="menu">
+                    <li><a href="../index.html">首页</a>
+                        <ul>
+                            <li><a href="#tuijian">推荐歌单</a></li>
+                            <li><a href="#jingxuanhuodong">精选活动</a></li>
+                            <li><a href="#paihangbang">排行榜</a></li>
+                            <li><a href="#geshou">歌手</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../HTML/singer.html">歌手</a>
+                        <ul>
+                            <li><a href="../HTML/singer.html">大陆</a></li>
+                            <li><a href="../HTML/singer.html">港澳</a></li>
+                            <li><a href="../HTML/singer.html">欧美</a></li>
+                            <li><a href="../HTML/singer.html">日韩</a></li>
+                            <li><a href="../HTML/singer.html">更多</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../我佛慈悲/排行榜/原创榜.html">排行榜</a>
+                        <ul>
+                            <li><a href="../我佛慈悲/排行榜/飙升榜.html">飙升榜</a></li>
+                            <li><a href="../我佛慈悲/排行榜/新歌榜.html">新歌榜</a></li>
+                            <li><a href="../我佛慈悲/排行榜/原创榜.html">原创榜</a></li>
+                            <li><a href="../我佛慈悲/排行榜/原创榜.html">更多</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#tuijian">歌单</a>
+                        <ul>
+                            <li><a href="#remen">热门</a></li>
+                            <li><a href="#xinqing">心情</a></li>
+                            <li><a href="#changjing">场景</a></li>
+                            <li><a href="#qufeng">曲风</a></li>
+                            <li><a href="#yuyan">语言</a></li>
+                            <li><a href="#renqun">人群</a></li>
+                            <li><a href="#yueqi">乐器</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../play_broadcasting.html">电台</a>
+                        <ul>
+                            <li><a href="#">创作|翻唱</a></li>
+                            <li><a href="#">3D|电子</a></li>
+                            <li><a href="#">情感调节</a></li>
+                            <li><a href="#">音乐故事</a></li>
+                            <li><a href="#">更多</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">数字专辑</a></li>
+                </ul>
+            </div>
+            <div id="nav_logo">
+                <img src="images/logo.png" alt="加载失败..." style="height: 100%;width:100%;">
+            </div>
+            <div id="nav_recon">
+                <a href="../我佛慈悲/注册/register.html"><button value="注册">注册</button></a>
+            </div>
+            <div id="nav_login">
+                <a href="../我佛慈悲/登录/login.html"><button value="登录">登录</button></a>
+            </div>
+            <div id="seek">
+                <form action="" id="parent">
+                    <input type="text" class="search" id="search" placeholder="听你想听...">
+                </form>
+            </div>
+            <div id="person">
+                <a href="../HTML/personal.html"><img src="images/person.png" style="height: 100%;width:100%;"></a>
+            </div>
+            <!-- <div class="clear"></div> -->
+        </div>
+    </header>
+    <!-- <div class="kongbai"></div> -->
+    <div class="content">
+        <div class="title">
+            <ul>
+                <li>
+                    <h1><a href="#tuijian">推荐</a></h1>
+                </li>
+                <li><a href="#jingxuanhuodong">精选活动</a></li>
+                <li><a href="#paihangbang">排行榜</a></li>
+                <li><a href="#geshou">歌手</a></li>
+                <li><a href="search.html">搜索</a></li>
+                <li><a href="">歌单</a></li>
+            </ul>
+        </div>
+        <div class="slide">
+            <ul>
+                <li><img src="images/slide-1.jpg" alt=""></li>
+                <li><img src="images/slide-2.jpg" alt=""></li>
+                <li><img src="images/slide-3.jpg" alt=""></li>
+                <li><img src="images/slide-4.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="title-1">
+            <a name="tuijian"></a>
+            <ul id="getEverydaySongMenu">
+                <li>
+                    <h1><a href="#fanhui">推荐歌单</a></h1>
+                </li>
+
+                <!-------渲染数据11111111111111111111111111111111111111111111---------->
+                <!-- <li><a href=""><b>每日推荐</b></a></li> -->
+                <!-- <li><a href="">翻唱</a></li>
+                <li><a href="">网络</a></li>
+                <li><a href="">伤感</a></li>
+                <li><a href="">欧美</a></li>
+                <li><a href="">更多></a></li> -->
+            </ul>
+        </div>
+        <div class="list-1">
+            <!-------渲染数据22222222222222222222222222---------->
+
+            <div class="reconmend-1">
+                <a href=""><img src="images/recommend-1.jpg" alt=""></a>
+                <a href=""><img class="icon" src="images/cover_play.png" alt=""></a>
+                <a href="">每日最新单曲推荐</a>
+                <p>
+                    <font color="gray">播放量：19.3万</font>
+                </p>
+            </div>
+            <div class="reconmend-2">
+                <a href=""><img src="images/recommend-2.jpg" alt=""></a>
+                <a href=""><img class="icon" src="images/cover_play.png" alt=""></a>
+                <a href="">(精选私藏)张学友经典合集</a>
+                <p>
+                    <font color="gray">播放量：92.6万</font>
+                </p>
+            </div>
+            <div class="reconmend-3">
+                <a href=""><img src="images/recommend-3.jpg" alt=""></a>
+                <a href=""><img class="icon" src="images/cover_play.png" alt=""></a>
+                <a href="">忘情忘爱忘记你</a>
+                <p>
+                    <font color="gray">播放量：39.7万</font>
+                </p>
+            </div>
+            <div class="reconmend-4">
+                <a href=""><img src="images/recommend-4.jpg" alt=""></a>
+                <a href=""><img class="icon" src="images/cover_play.png" alt=""></a>
+                <a href="">天不老，情不绝，冬日暖心情歌</a>
+                <p>
+                    <font color="gray">播放量：29.2万</font>
+                </p>
+            </div>
+            <div class="reconmend-5">
+                <a href=""><img src="images/recommend-5.jpg" alt=""></a>
+                <a href=""><img class="icon" src="images/cover_play.png" alt=""></a>
+                <a href="">（伤感）霓虹闪烁，何处才是我的归宿</a>
+                <p>
+                    <font color="gray">播放量：15.2万</font>
+                </p>
+            </div>
+        </div>
+        <div class="title-2">
+            <a name="jingxuanhuodong"></a>
+            <ul>
+                <li>
+                    <h1><a href="#fanhui">精选活动</a></h1>
+                </li>
+                <li><a href="">更多></a></li>
+            </ul>
+        </div>
+        <div class="list-2">
+            <a href=""><img src="images/activity-1.jpg" alt=""></a>
+            <a href=""><img src="images/activity-2.jpg" alt=""></a>
+        </div>
+        <div class="title-3">
+            <a name="paihangbang"></a>
+            <ul>
+                <li>
+                    <h1><a href="#fanhui">排行榜</a></h1>
+                </li>
+                <li><a href="">更多></a></li>
+            </ul>
+        </div>
+
+        <!------------排行榜渲染上------------------->
+        <div class="ranking">
+
+            <!-- <div class="ranking-1">
+
+                <div class="ranking-gj">
+                    <img src="images/ranking-bj-1.jpg" alt="">
+                    <img class="ranking-text" src="images/ranking-text-1.png" alt="">
+                </div>
+
+                <div class="rank-list">
+                    <div>
+                        <img src="images/first.png" alt="">
+                        <p><a href="">把孤独当晚餐</a></p>
+                        <span><a href="">井胧</a></span>
+                    </div>
+                    <div>
+                        <img src="images/second.png" alt="">
+                        <p><a href="">余情未了</a></p>
+                        <span><a href="">魏新雨</a></span>
+                    </div>
+                    <div>
+                        <img src="images/third.png" alt="">
+                        <p><a href="">多年以后</a></p>
+                        <span><a href="">大欢</a></span>
+                    </div>                    
+                </div>
+            </div>
+
+
+            <div class="ranking-1">
+                <div class="ranking-gj">
+                    <img src="images/ranking-bj-2.jpg" alt="">
+                    <img class="ranking-text" src="images/ranking-text-2.png" alt="">
+                </div>
+                <div class="rank-list">
+                    <div>
+                        <img src="images/first.png" alt="">
+                        <p><a href="">Fly Away</a></p>
+                        <span><a href="">G.E.M邓紫棋</a></span>
+                    </div>
+                    <div>
+                        <img src="images/second.png" alt="">
+                        <p><a href="">Fall</a></p>
+                        <span><a href="">易烊千玺</a></span>
+                    </div>
+                    <div>
+                        <img src="images/third.png" alt="">
+                        <p><a href="">小小（Live）</a></p>
+                        <span><a href="">杨一歌</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="ranking-1">
+                <div class="ranking-gj">
+                    <img src="images/ranking-bj-3.jpg" alt="">
+                    <img class="ranking-text" src="images/ranking-text-3.png" alt="">
+                </div>
+                <div class="rank-list">
+                    <div>
+                        <img src="images/first.png" alt="">
+                        <p><a href="">赢在江湖</a></p>
+                        <span><a href="">姜鹏</a></span>
+                    </div>
+                    <div>
+                        <img src="images/second.png" alt="">
+                        <p><a href="">Natural</a></p>
+                        <span><a href="">James Major</a></span>
+                    </div>
+                    <div>
+                        <img src="images/third.png" alt="">
+                        <p><a href="">Weightless</a></p>
+                        <span><a href="">Galahad</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="ranking-1">
+                <div class="ranking-gj">
+                    <img src="images/ranking-bj-4.jpg" alt="">
+                    <img class="ranking-text" src="images/ranking-text-4.png" alt="">
+                </div>
+                <div class="rank-list">
+                    <div>
+                        <img src="images/first.png" alt="">
+                        <p><a href="">Beautiful People</a></p>
+                        <span><a href="">Ed Sheeran</a></span>
+                    </div>
+                    <div>
+                        <img src="images/second.png" alt="">
+                        <p><a href="">Senorita</a></p>
+                        <span><a href="">Jessie Van Gayle</a></span>
+                    </div>
+                    <div>
+                        <img src="images/third.png" alt="">
+                        <p><a href="">Boys</a></p>
+                        <span><a href="">Lizzo</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="ranking-1">
+                <div class="ranking-gj">
+                    <img src="images/ranking-bj-5.jpg" alt="">
+                    <img class="ranking-text" src="images/ranking-text-5.png" alt="">
+                </div>
+                <div class="rank-list">
+                    <div>
+                        <img src="images/first.png" alt="">
+                        <p><a href="">너에게 못했던 내 말은</a></p>
+                        <span><a href="">DAViCHi</a></span>
+                    </div>
+                    <div>
+                        <img src="images/second.png" alt="">
+                        <p><a href="">NO ONE</a></p>
+                        <span><a href="">李夏怡</a></span>
+                    </div>
+                    <div>
+                        <img src="images/third.png" alt="">
+                        <p><a href="">고고베베</a></p>
+                        <span><a href="">Mamamoo</a></span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+
+
+
+        <!-------------渲染排行榜下---------------->
+        <div class="title-4">
+            <a name="geshou"></a>
+            <ul class="xuanranul">
+                <!-- <li>
+                    <h1><a href="#fanhui">歌手</a></h1>
+                </li>
+                <li><a href="">华语</a></li>
+                <li><a href="">欧美</a></li>
+                <li><a href="">日韩</a></li>
+                <li><a href="">组合</a></li>
+                <li><a href="">更多></a></li> -->
+            </ul>
+        </div>
+        <div class="singer">
+            <div class="singer-list-1">
+                <a href=""><img src="images/singer-poster-1.jpg" alt=""></a>
+                <p><a href="">G.E.M邓紫棋</a></p>
+                <p>
+                    <font color="gray" size="2">689首歌曲</font>
+                </p>
+            </div>
+            <div class="singer-list-2">
+                <a href=""><img src="images/singer-poster-2.jpg" alt=""></a>
+                <p><a href="">陈雪凝</a></p>
+                <p>
+                    <font color="gray" size="2">56首歌曲</font>
+                </p>
+            </div>
+            <div class="singer-list-3">
+                <a href=""><img src="images/singer-poster-3.jpg" alt=""></a>
+                <p><a href="">周杰伦</a></p>
+                <p>
+                    <font color="gray" size="2">1038首歌曲</font>
+                </p>
+            </div>
+            <div class="singer-list-4">
+                <a href=""><img src="images/singer-poster-4.jpg" alt=""></a>
+                <p><a href="">薛之谦</a></p>
+                <p>
+                    <font color="gray" size="2">493首歌曲</font>
+                </p>
+            </div>
+            <div class="singer-list-5">
+                <a href=""><img src="images/singer-poster-5.jpg" alt=""></a>
+                <p><a href="">林俊杰</a></p>
+                <p>
+                    <font color="gray" size="2">1026首歌曲</font>
+                </p>
+            </div>
+            <div class="singer-list-6">
+                <a href=""><img src="images/singer-poster-6.jpg" alt=""></a>
+                <p><a href="">王力宏</a></p>
+                <p>
+                    <font color="gray" size="2">1131首歌曲</font>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="singer_footerbox">
+        <footer>
+            <div id="footer_txt">
+                <img src="images/logo.png">
+                <p>
+                    <a href="">
+                        团队|我佛慈悲团队
+                    </a>
+                    <a href="">
+                        项目|WORLDMUSIC
+                    </a>
+                    <a href="">
+                        成员|张光波、李香平、陈启翔、张玉梁
+                    </a>
+                    <a href=""></a>
+                </p>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+
+    <script src="javascripts/Index.js">
+        // var thealist = null;
+
+        // var getEverydaySongMenu = document.querySelector("#getEverydaySongMenu");
+        // var list1 = document.querySelector(".list-1")
+
+
+        // //----------------------每日歌单渲染---------------------
+        // function getEverydaySongMenus() {
+        //     let str = ""
+        //     let xhr = null;
+        //     if (window.XMLHttpRequest) {
+        //         xhr = new XMLHttpRequest()
+        //     } else {
+        //         xhr = new ActiveXObject("Microsoft.XMLHTTP")
+        //     }
+
+        //     //回调函数
+
+        //     xhr.onreadystatechange = function () {
+        //         if (xhr.readyState == 4 && xhr.status == 200) {
+        //             //获得数据库数据
+        //             var data = xhr.responseText
+
+        //             data = JSON.parse(data);
+
+
+        //             for (let i = 0; i < data.length; i++) {
+
+        //                 str += `
+        //                 <li><a href="https://www.baidu.com" class="everydaymenu">${data[i].cat_name}</a></li>
+        //                 `
+        //             }
+        //             // console.log(str)
+        //             getEverydaySongMenu.innerHTML += str;
+
+        //             var alist = $('.everydaymenu')
+        //             // console.log(alist, 909);
+        //             thealist = alist;
+        //             // console.log(thealist, 808);
+        //             thealist = thealist
+
+
+        //             let theVal = null;
+        //             for (let j = 0; j < alist.length; j++) {
+
+
+        //                 $(alist[j]).on('click', function (theVal) {
+        //                     theVal = data[j].cat_id;
+
+        //                     console.log(theVal, j)
+
+
+        //                     event.preventDefault();
+        //                     let str1 = ''
+        //                     var xhr1 = null;
+        //                     if (window.XMLHttpRequest) {
+        //                         xhr1 = new XMLHttpRequest()
+        //                     } else {
+        //                         xhr1 = ActiveXObject('Microsoft.XMLHTTP')
+        //                     }
+        //                     xhr1.onreadystatechange = function () {
+        //                         if (xhr1.readyState == 4 && xhr1.status == 200) {
+        //                             // console.log(01010101)
+        //                             //获得数据库数据
+        //                             var data1 = xhr1.responseText
+
+        //                             data1 = JSON.parse(data1);
+        //                             // console.log(data1)
+        //                             for (let k = 0; k < data1.length; k++) {
+        //                                 str1 += `
+        //                                             <div class="reconmend-${k + 1}">
+        //                     <a href=""><img src="${data1[k].pic_src}" alt=""></a>
+        //                     <a href=""><img class="icon" src="images/cover_play.png" alt=""></a>
+        //                     <a href="">${data1[k].songs_name}</a>
+        //                     <p>
+        //                         <font color="gray">播放量：${data1[k].play_times}</font>
+        //                     </p>
+        //                 </div>                                             
+        //                                 `
+        //                             }
+        //                             list1.innerHTML = str1;
+        //                         }
+        //                     }
+        //                     xhr1.open("get", `getEverydaySongs.do?theVal=${theVal}`)
+        //                     // xhr1.open()
+        //                     xhr1.send(null)
+        //                 })
+        //             }
+        //         }
+        //     }
+        //     xhr.open("get", "getEverydaySong.do?theVal=")
+        //     xhr.send(null)
+
+        // }
+
+
+
+
+
+
+
+        // //-----------------------排行榜渲染----------------
+        // function rankinglistid() {
+        //     var ranking = document.querySelector(".ranking")
+        //     let str1 = ""
+        //     let xhr = null;
+        //     if (window.XMLHttpRequest) {
+        //         xhr = new XMLHttpRequest()
+        //     } else {
+        //         xhr = new ActiveXObject("Microsoft.XMLHTTP")
+        //     }
+        //     var arry1 = []
+        //     xhr.onreadystatechange = function () {
+        //         if (xhr.readyState == 4 && xhr.status == 200) {
+        //             arry1 = xhr.responseText;
+        //             arry1 = JSON.parse(arry1)
+        //             // console.log(arry1, 222222222)
+
+        //             //-------------------4个div--------------------
+        //             for (let i = 1; i <= arry1.length; i++) {
+        //                 var smallstr = ''
+        //                 var smallArr = [];
+        //                 function getRankingList(i) {
+        //                     let xhr1 = null;
+        //                     if (window.XMLHttpRequest) {
+        //                         xhr1 = new XMLHttpRequest()
+        //                     } else {
+        //                         xhr1 = new ActiveXObject("Microsoft.XMLHTTP")
+        //                     }
+        //                     xhr1.onreadystatechange = function () {
+        //                         if (xhr1.readyState == 4 && xhr1.status == 200) {
+        //                             smallArr = xhr1.responseText;
+        //                             smallArr = JSON.parse(smallArr)
+        //                             console.log(smallArr, i);         //----打印每一个div 顺序问题
+        //                             smallstr = ""
+        //                             for (let m = 0; m < smallArr.length; m++) {
+        //                                 smallstr += `
+        //                          <div>
+        //                         <img src="${smallArr[m].before_img_src}" alt="">
+        //                         <p><a href="">${smallArr[m].song_name}</a></p>
+        //                         <span><a href="">${smallArr[m].singer}</a></span>
+        //                         </div>                                
+        //                         `
+        //                             }
+        //                             str1 += `
+        //                             <div class="ranking-1">
+        //                             <div class="ranking-gj">
+        //                                 <img src="${arry1[i].bg_img}" alt="">
+        //                                 <img class="ranking-text" src="images/ranking-text-${i}.png" alt="">
+        //                             </div>
+        //                             <div class="rank-list">
+        //                                 ${smallstr}            
+        //                             </div>
+        //                             </div>
+        //                      `
+        //                         }
+        //                         ranking.innerHTML = str1;
+        //                     }
+        //                     xhr1.open("get", `getRankingList.do?i=${i}`)
+        //                     xhr1.send(null)
+        //                 }
+        //                 getRankingList(i)
+        //             }
+        //         }
+        //     }
+        //     xhr.open("get", "rankinglistid.do")
+        //     xhr.send(null)
+
+        // }
+
+
+        // //-------歌手类型渲染----
+        // var thedate = []
+        // function singertype() {
+        //     var xuanranul = document.querySelector(".xuanranul");
+        //     var str = "";
+        //     var xhr = null;
+        //     if (window.XMLHttpRequest) {
+        //         xhr = new XMLHttpRequest()
+        //     } else {
+        //         xhr = new ActiveXObject("Microsoft.XMLHTTP")
+        //     }
+        //     xhr.onreadystatechange = function () {
+        //         if (xhr.readyState == 4 && xhr.status == 200) {
+        //             thedate = xhr.responseText
+        //             thedate = JSON.parse(thedate)
+        //             //    thedate = JSON.parse(thedate);
+        //             console.log(thedate, 2020202)
+        //             for (let i = 0; i < thedate.length; i++) {
+        //                 str += `
+        //                 <li><a href="http://www.baidu.com" class="thesinger">${thedate[i].cat_name}</a></li>
+        //                 `
+
+        //             }
+        //             xuanranul.innerHTML += `
+        //             <li>
+        //                     <h1><a href="#fanhui">歌手</a></h1>
+        //                 </li>
+        //                 ${str}
+        //                 <li><a href="">更多></a></li> 
+                    
+        //             `;
+        //             singerlist()
+
+
+        //         }
+        //     }
+        //     xhr.open("get", "singertype.do")
+        //     xhr.send(null)
+        // }
+        // //---------歌手头像图片----
+        // function singerlist() {
+        //     var singer=document.querySelector(".singer")
+        //     var str=""
+        //     // var thei;
+        //     var thesinger = $(".thesinger")
+        //     // console.log(thesinger, 9090)
+        //     for (let i = 0; i < thesinger.length; i++) {
+
+        //         $(thesinger[i]).on("click", function (thei) {
+        //             thei = thedate[i].cat_id
+        //             if(!thei){
+        //                 thei=1
+        //             }
+                    
+        //             console.log(thei, 404)
+        //             event.preventDefault()
+        //             console.log(thesinger[i])
+        //             // console.log(thedate[i].cat_id,303)
+        //             var xhr=null
+        //             if (window.XMLHttpRequest) {
+        //                 xhr = new XMLHttpRequest()
+        //             } else {
+        //                 xhr = new ActiveXObject("Microsoft.XMLHTTP")
+        //             }
+        //             xhr.onreadystatechange = function () {
+        //                 if (xhr.readyState == 4 && xhr.status == 200) {
+        //                     var thedate=xhr.responseText;
+        //                     thedate=JSON.parse(thedate)
+        //                     console.log(thedate,1234)
+        //                     str=""
+        //                     for(let j=0;j<thedate.length;j++){
+        //                         str+=`
+        //                     <div class="singer-list-${j+1}">
+        //                         <a href=""><img src="${thedate[j].pic_src}" alt=""></a>
+        //                         <p><a href="">${thedate[j].singer_name}</a></p>
+        //                         <p>
+        //                             <font color="gray" size="2">${thedate[j].singer_works}</font>
+        //                         </p>
+        //                     </div>
+                            
+        //                     `
+        //                     }
+        //                     singer.innerHTML=str;
+
+                        
+        //                 }
+        //             }
+        //             xhr.open("get", `singerlist.do?cat_id=${thei}`)
+        //             xhr.send(null)
+
+
+        //         })
+        //     }
+
+
+        // }
+
+
+
+
+
+
+
+
+        // window.onload = function () {
+        //     getEverydaySongMenus();
+        //     rankinglistid();
+        //     singertype();//歌手类型
+        //     singerlist()
+        //     // singerlist();
+
+        // }
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

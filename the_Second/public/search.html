@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/search.css">
+</head>
+<body>
+    <div class="search-box">
+        <form action="search.do">
+            <input class="search" id="img_keywords" type="text" placeholder="搜索音乐/MV/歌单/歌手">
+            <i id="btn"><img src="./images/search.png" alt=""></i>
+        </form>
+    </div>
+    <div class="result-box">
+        <div class="tabs">
+            <span class="results">搜索结果</span>
+            <a href="#">单曲</a>
+            <a href="#">专辑</a>
+            <a href="#">MV</a>
+            <a href="#">歌单</a>
+            <a href="#">歌曲</a>
+        </div>
+        <div class="btns">
+            <button class="paly bg_primary"><img src="./images/player-play.png" alt=""><span>播放全部</span></button>
+            <button><img src="./images/collection.png" alt=""><span style="margin-left: 5px">收藏</span></button>
+            <button><img src="./images/download.png" alt=""><span>下载歌曲</span></button>
+        </div>
+        <div class="child_view">
+            <div class="list_head">
+                <ul>
+                    <li>序号</li>
+                    <li>歌曲</li>
+                    <li>歌手</li>
+                    <li>专辑</li>
+                    <li>时长</li>
+                </ul>
+            </div>
+            <ul class="search_list">
+                <li class="song_item">
+                    <ul class="song_ranky">
+                        <li class="song_rank"><span>1</span><img class="cover" src="./images/Album-01.jpg" alt=""></li>
+                        <li class="song_name">说好不哭(with五月天阿信)</li>
+                        <li class="singer_name">周杰伦</li>
+                        <li class="album_name">说好不哭(with五月天阿信)</li>
+                        <li class="time_long">03:42</li>
+                        <div class="song_opts">
+                            <img src="./images/player-play.png" alt="">
+                            <img src="./images/jiahao.png" alt="">
+                            <img src="./images/collection.png" alt="">
+                            <img src="./images/download.png" alt="">
+                        </div>
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="javascripts/search.js">
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    width: 100%
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: #322a37;
+}
+.radioPlayBox{
+    height: 100%;
+    width: 100%;
+    background: #322a37;
+}
+.type_btn{
+    display: block;
+    height: 36px;
+    width: 156px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.player_radio{
+    width: 654px;
+    height: 252px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+.player_radio h2{
+    /* height: 58px; */
+    width: 364px;
+    padding: 31px 0 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.player_radio h2 .title1{
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    height: 30px;
+    /* width: 70px; */
+    text-decoration: none;
+    color: #000;
+    
+}
+.player_radio h3{
+    height: 21px;
+    width: 364px;
+    margin-left: 20px;
+}
+.player_radio h3 a{
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+
+    /* width: 70px; */
+    text-decoration: none;
+    color: #000;
+    
+}
+.radio_progress{
+    position: relative;
+    top: 60px;
+    margin-left: 20px;
+}
+.radio_progress span{
+    font-size: 12px;
+    color: #333;
+}
+.radio_progress_load{
+    display: inline-block;
+    height: 2px;
+    width: 282px;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+.voice_control{
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+.play_radio_control{
+    margin-left: 20px;
+    position: relative ;
+    top:80px;
+}
+.cover{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 95%;
+}
+/* .yuan{
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    position: absolute;
+    color: #333;
+} */
+.inner_radio_list{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+}
+.mod_list{
+    width: 1008px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wtf{
+    width: 400%;
+    overflow: hidden;
+}
+.mod_list ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 260px;
+    width: 200%;
+    list-style: none;
+    /* float: left; */
+    /* display: inline-block; */
+}
+.mod_list .radio_list_item{
+    width: 221px;
+    margin-right:31px ;
+    /* border: 1px solid #000; */
+}
+.abtn{
+    font-size: 30px;
+    display: inline-block;
+    height: 53px;
+    width: 26px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.prev_btn{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+.next_btn{
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+
+}
+.radio_cover{
+    width: 201px;
+}
+.radio_list_item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.radio_list_item a:hover{
+    color: #31c27c;
+}
+.point{
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.history{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.play_radio_control .play{
+    height: 20px;
+}
+.play_radio_control img{
+    margin-left: 10px;
+    height: 16px;
+    vertical-align: middle;
+}
+.aixin,.shanchu,.sandian{
+    position: relative;
+    right: -100px;
+}

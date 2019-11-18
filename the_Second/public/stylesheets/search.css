@@ -1,0 +1,223 @@
+/* 搜索框部分 */
+*{
+    margin: 0;
+    padding: 0;
+}
+.search-box{
+    width: 100%;
+    height: 246px;
+    background: url('../images/BG.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 720px;
+    height: 54px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: none;
+    text-indent: 20px;
+    outline: none;
+}
+i{
+    display: inline-block;
+    height: 54px;
+    width: 54px;
+    vertical-align: middle;
+    line-height: 54px;
+    text-align: center;
+    position: relative;
+    right: 60px;
+}
+
+/* 搜索结果部分 */
+
+.result-box{
+    width:1118px;
+    margin: 0 auto;
+}
+.tabs{
+    height: 30px;
+    margin: 43px 0;
+}
+.results{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.tabs a{
+    color: #000;
+    text-decoration: none;
+    margin-right: 34px;
+    font-size: 14px;
+}
+.btns{
+    height: 40px;
+    margin: 32px 0;
+}
+.btns button{
+    height: 40px;
+    border:none;
+    box-shadow: none;
+    margin-right: 10px;
+    padding:0 30px;
+    color: #f2f2f2;
+    border-radius:20px;
+    color: #000; 
+    cursor: pointer;
+    outline: none;
+}
+#btn img{
+    height: 20px;
+    vertical-align: middle;
+}
+.bg_primary{
+    background: #ffe12c;
+}
+.btns img{
+    height: 18px;
+    vertical-align: top;
+}
+.list_head ul {
+    display: flex;
+    list-style: none;
+    height: 46px;
+    background: #fafafa;
+    color: #999999;
+    font-size: 14px;
+    line-height: 46px;
+}
+.list_head ul li:nth-child(1){
+    width: 190px;
+    padding-left: 32px;
+}
+.list_head ul li:nth-child(2){
+    width: 315px;
+}
+.list_head ul li:nth-child(3){
+    width: 268px;
+}
+.list_head ul li:nth-child(4){
+    width: 290px;
+}
+.list_head ul li:nth-child(5){
+    width: 65px;
+}
+.search_list{
+    list-style: none;
+    
+}
+.song_item{
+    height: 70px;
+    line-height: 54px;
+    position: relative;
+}
+.song_item:hover{
+    background:  #f5f5f5;
+}
+.song_item:hover .song_opts{
+    display: block;
+}
+.song_ranky{
+    height: 54px;
+    /* width: 180px; */
+    line-height: 54px;
+    padding-left: 30px;
+    padding-top: 7px;
+    display: flex;
+    /* display: inline-block; */
+    list-style:none;
+}
+.song_rank{
+    height: 54px;
+    width: 180px;
+}
+.rank_num{
+    width: 20px;
+    height: 33px;
+    /* display: inline-block; */
+    text-align: center;
+    line-height: 33px;
+    position: relative;
+    top: -20px;
+}
+.song_rank span{
+    
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+.cover{
+    margin-left: 37.5px;
+    width: 54px;
+    
+}
+
+.song_name{
+    width: 305px;
+    font-size: 14px;
+    color:#333333;
+    
+}
+
+.singer_name{
+    width: 260px;
+    font-size: 14px;
+    color:#666;
+
+}
+.album_name{
+    width: 280px;
+    font-size: 14px;
+    color:#666;
+}
+.time_long{
+    font-size: 14px;
+    color:#666;
+}
+.song_opts{
+    background:  #f5f5f5;
+    z-index: 10;
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    display: none;
+}
+
+.song_opts img{
+    width: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nodata{
+    text-align: center;
+}
+.nodata img {
+    margin-top: 100px;
+    height: 200px;
+}
+.nodata .refresh{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    width: 180px;
+    border-radius: 20px;
+    background: #ffe12c;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+.nodata p{
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 30px;
+}
